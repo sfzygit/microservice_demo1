@@ -1,0 +1,15 @@
+server:
+  port: 9001
+  
+spring:
+  application:
+    name: service_a
+  cloud:
+    config:
+      uri: http://localhost:9000/
+      name: service_a
+      profile: dev
+
+
+        
+        

@@ -1,0 +1,15 @@
+server:
+  port: 9002
+  
+spring:
+  application:
+    name: service_b
+  cloud:
+    config:
+      uri: http://localhost:9000/
+      name: service_b
+      profile: test
+
+
+        
+        
